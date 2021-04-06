@@ -1,0 +1,12 @@
+gunicorn
+plotly
+dash
+xlrd
+statsmodels
+requests
+dash_renderer
+dash-html-components
+dash-core-components
+dash-bootstrap-components
+pandas
+numpy

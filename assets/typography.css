@@ -1,0 +1,49 @@
+body{
+    background: #FFFFFFF;
+    color: #323232;
+    font-family: "Gill Sans MT", serif;
+}
+
+.smalltextbox {
+  background-color: #FFFFFF;
+  font-family: "Gill Sans MT", serif;
+  margin: 0.5%
+}
+
+.smallbox {
+  border-radius: 0px;
+  font-family: "Gill Sans MT", serif;
+  background-color: #FFFFFF;
+  margin: 0.5%;
+  padding: 0.5%;
+  box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+.bigrightgraph {
+  border-radius: 0px;
+  font-family: "Gill Sans MT", serif;
+  background-color: #FFFFFF;
+  margin: 0.5%;
+  padding: 0.5%;
+}
+
+h1 {
+  text-align: center;
+  justify: center;
+  background-color: #FFFFFF;
+  font-family: "Gill Sans MT", serif;
+}
+
+h2, h3, h4, h5, h6 {
+  text-align: right;
+  justify: center;
+  background-color: #FFFFFF;
+font-family: "Gill Sans MT", serif;
+margin: 0.25%;
+  padding: 0.25%;
+}
+
+label {
+  font-family: "Gill Sans MT", serif;
+
+}
