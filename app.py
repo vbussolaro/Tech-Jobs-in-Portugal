@@ -286,7 +286,7 @@ def ninth_plot(job):
         filtered_job.Employer_Industry.value_counts()[:5].index.values)],
                      path=['Residence_District_Aggregated', 'Employer_Industry'],
                      color_discrete_sequence=px.colors.sequential.Aggrnyl,
-                     title='Treemap of Most important Sectors per District')
+                     title='Treemap of Chosen Residence Areas per Employer Sector')
     fig.update_layout(hovermode=False,
                       margin=dict(t=40, b=0, l=0, r=0),
                       font_family="Gill Sans MT",
