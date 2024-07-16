@@ -75,7 +75,6 @@ df['Employer_Industry'].replace('Education and training', 'Education', inplace=T
 df['Employer_Industry'].replace('Healthcare or social services', 'Health & Social', inplace=True)
 df['Employer_Industry'].replace('Software as a service (saas) development', 'SaaS Dev.', inplace=True)
 df_tech = df.dropna(axis=0, how='any',
-                    thresh=None,
                     subset=['Way_Into_Tech', 'Education_Level', 'Work_Company_Country', 'Avg_Salary', 'Age',
                             'Working_Experience_Aggregated'])
 df_tech.set_index('Job_Role_Original', inplace=True)
